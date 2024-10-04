@@ -150,7 +150,7 @@ dependencies {
    // To use the JUnit Extension APIs
    androidTestImplementation(libs.androidx.junit)
    androidTestImplementation(libs.androidx.junit.ktx)
-   // To use
+
    androidTestImplementation(libs.androidx.truth)
    androidTestImplementation(libs.androidx.runner)
    androidTestImplementation(libs.androidx.rules)
