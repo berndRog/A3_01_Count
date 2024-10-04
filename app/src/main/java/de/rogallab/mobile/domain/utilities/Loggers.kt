@@ -1,8 +1,6 @@
 package de.rogallab.mobile.domain.utilities
 
 import android.util.Log
-import de.rogallab.mobile.MainActivity.Companion.isDebug
-import de.rogallab.mobile.MainActivity.Companion.isInfo
 
 fun logError(tag: String, message: String) {
    val msg = formatMessage(message)
@@ -14,12 +12,12 @@ fun logWarning(tag: String, message: String) {
 }
 fun logInfo(tag: String, message: String) {
    val msg = formatMessage(message)
-   if(isInfo) Log.i(tag, msg)
+   Log.i(tag, msg)
 }
 
 fun logDebug(tag: String, message: String) {
    val msg = formatMessage(message)
-   if (isDebug) Log.d(tag, msg)
+   Log.d(tag, msg)
 }
 
 private fun formatMessage(message: String) =

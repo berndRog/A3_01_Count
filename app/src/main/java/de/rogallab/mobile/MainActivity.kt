@@ -48,8 +48,6 @@ class MainActivity : BaseActivity(TAG) {
    }
 
    companion object {
-      const val isInfo = true
-      const val isDebug = true
       private const val TAG = "<-MainActivity"
    }
 }
