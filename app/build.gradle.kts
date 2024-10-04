@@ -147,16 +147,13 @@ dependencies {
 
    // To use the androidx.test.espresso
    androidTestImplementation(libs.androidx.espresso.core)
-
    // To use the JUnit Extension APIs
    androidTestImplementation(libs.androidx.junit)
    androidTestImplementation(libs.androidx.junit.ktx)
-
-   // To use the Truth Extension APIs
+   // To use
    androidTestImplementation(libs.androidx.truth)
-
-   // To use the androidx.test.runner APIs
    androidTestImplementation(libs.androidx.runner)
+   androidTestImplementation(libs.androidx.rules)
 
    // To use Compose Testing
    androidTestImplementation(platform(libs.androidx.compose.bom))

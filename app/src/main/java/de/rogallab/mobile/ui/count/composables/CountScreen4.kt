@@ -9,10 +9,10 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import de.rogallab.mobile.ui.features.count.CountViewModel
-import de.rogallab.mobile.domain.utils.logDebug
-import de.rogallab.mobile.ui.compose2.ScreenContent
-import de.rogallab.mobile.ui.features.count.CountUiState
+import de.rogallab.mobile.ui.count.CountViewModel
+import de.rogallab.mobile.domain.utilities.logDebug
+import de.rogallab.mobile.ui.count.composables.ScreenContent
+import de.rogallab.mobile.ui.count.CountUiState
 
 @Composable
 fun CountScreen4(

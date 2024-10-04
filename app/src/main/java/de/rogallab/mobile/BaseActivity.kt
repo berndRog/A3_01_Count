@@ -1,13 +1,13 @@
-package de.rogallab.mobile.ui.base
+package de.rogallab.mobile
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
-import de.rogallab.mobile.domain.utils.logInfo
+import de.rogallab.mobile.domain.utilities.logInfo
 
 open class BaseActivity(
    private val _tag: String
 ) : ComponentActivity() {
-   
+
    // Activity is first created
    override fun onCreate(savedInstanceState: Bundle?) {
       super.onCreate(savedInstanceState)

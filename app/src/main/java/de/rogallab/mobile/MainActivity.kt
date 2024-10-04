@@ -12,10 +12,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
-import de.rogallab.mobile.domain.utils.logDebug
-import de.rogallab.mobile.ui.base.BaseActivity
-import de.rogallab.mobile.ui.compose1.CountScreen1
-import de.rogallab.mobile.ui.compose2.Stateholder
+import de.rogallab.mobile.domain.utilities.logDebug
+import de.rogallab.mobile.ui.count.composables.CountScreen1
+import de.rogallab.mobile.ui.count.composables.Stateholder
 import de.rogallab.mobile.ui.theme.AppTheme
 
 class MainActivity : BaseActivity(TAG) {
@@ -51,8 +50,7 @@ class MainActivity : BaseActivity(TAG) {
    companion object {
       const val isInfo = true
       const val isDebug = true
-      //12345678901234567890123
-      private const val TAG = "[MainActivity]"
+      private const val TAG = "<-MainActivity"
    }
 }
 

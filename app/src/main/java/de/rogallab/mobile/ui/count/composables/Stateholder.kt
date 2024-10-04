@@ -1,11 +1,11 @@
-package de.rogallab.mobile.ui.compose2
+package de.rogallab.mobile.ui.count.composables
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
-import de.rogallab.mobile.domain.utils.logDebug
+import de.rogallab.mobile.domain.utilities.logDebug
 
 @Composable
 fun Stateholder() {
@@ -16,7 +16,7 @@ fun Stateholder() {
       count += 1
    }
 
-   logDebug("[Stateholder]", "Composition $count")
+   logDebug("<-Stateholder", "Composition $count")
 
    // call the composable
    CountScreen3(

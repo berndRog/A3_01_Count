@@ -1,4 +1,4 @@
-package de.rogallab.mobile.ui.features.count
+package de.rogallab.mobile.ui.count
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

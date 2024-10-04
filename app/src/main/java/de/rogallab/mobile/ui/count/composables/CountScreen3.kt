@@ -1,4 +1,4 @@
-package de.rogallab.mobile.ui.compose2
+package de.rogallab.mobile.ui.count.composables
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -7,7 +7,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import de.rogallab.mobile.domain.utils.logDebug
+import de.rogallab.mobile.domain.utilities.logDebug
 
 @Composable
 fun CountScreen3(
@@ -21,7 +21,7 @@ fun CountScreen3(
          .fillMaxSize(),
       verticalArrangement = Arrangement.Top
    ) {
-      logDebug("[CountScreen3]", "Composition $count")
+      logDebug("<-CountScreen3", "Composition $count")
       ScreenContent(
          count = count,                          // State ↓
          onCountIncrement = { onCountIncrement() } // Event ↑

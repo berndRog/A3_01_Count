@@ -1,4 +1,4 @@
-package de.rogallab.mobile.ui.compose2
+package de.rogallab.mobile.ui.count.composables
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.border
@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import de.rogallab.mobile.domain.utils.logDebug
+import de.rogallab.mobile.domain.utilities.logDebug
 
 @Composable
 fun ScreenContent(
@@ -19,7 +19,7 @@ fun ScreenContent(
    onCountIncrement: () -> Unit  // Event ↑
 ) {
 
-   logDebug("[ScreenContent]", "Composition $count")
+   logDebug("<-ScreenContent", "Composition $count")
 
    Text(
       text = count.toString(),  // state

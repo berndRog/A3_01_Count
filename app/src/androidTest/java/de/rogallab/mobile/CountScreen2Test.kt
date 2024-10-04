@@ -3,7 +3,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import de.rogallab.mobile.ui.compose1.CountScreen1
+import de.rogallab.mobile.ui.count.composables.CountScreen1
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
